@@ -269,8 +269,8 @@ importers:
   packages/adapter-vercel:
     dependencies:
       '@vercel/nft':
-        specifier: ^0.26.1
-        version: 0.26.4
+        specifier: ^0.27.0
+        version: 0.27.1
       esbuild:
         specifier: ^0.20.2
         version: 0.20.2
@@ -466,8 +466,8 @@ importers:
         specifier: ^2.4.7
         version: 2.4.7
       dts-buddy:
-        specifier: 0.4.6
-        version: 0.4.6(typescript@5.4.5)
+        specifier: 0.4.7
+        version: 0.4.7(typescript@5.4.5)
       rollup:
         specifier: ^4.14.2
         version: 4.14.2
@@ -1270,8 +1270,8 @@ importers:
         specifier: workspace:^
         version: link:../../packages/kit
       '@sveltejs/site-kit':
-        specifier: 6.0.0-next.59
-        version: 6.0.0-next.59(@sveltejs/kit@packages+kit)(svelte@4.2.14)
+        specifier: 6.0.0-next.64
+        version: 6.0.0-next.64(@sveltejs/kit@packages+kit)(svelte@4.2.14)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.1
         version: 3.1.0(svelte@4.2.14)(vite@5.2.8)
@@ -1384,7 +1384,7 @@ packages:
       outdent: 0.5.0
       prettier: 2.8.8
       resolve-from: 5.0.0
-      semver: 7.6.0
+      semver: 7.6.2
     dev: true
 
   /@changesets/assemble-release-plan@6.0.0:
@@ -1395,7 +1395,7 @@ packages:
       '@changesets/get-dependents-graph': 2.0.0
       '@changesets/types': 6.0.0
       '@manypkg/get-packages': 1.1.3
-      semver: 7.6.0
+      semver: 7.6.2
     dev: true
 
   /@changesets/changelog-git@0.2.0:
@@ -1467,7 +1467,7 @@ packages:
       '@manypkg/get-packages': 1.1.3
       chalk: 2.4.2
       fs-extra: 7.0.1
-      semver: 7.6.0
+      semver: 7.6.2
     dev: true
 
   /@changesets/get-github-info@0.5.2:
@@ -2416,7 +2416,7 @@ packages:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.6.0
+      semver: 7.6.2
       tar: 6.2.1
     transitivePeerDependencies:
       - encoding
@@ -2808,8 +2808,8 @@ packages:
       typescript: 5.4.5
     dev: true
 
-  /@sveltejs/site-kit@6.0.0-next.59(@sveltejs/kit@packages+kit)(svelte@4.2.14):
-    resolution: {integrity: sha512-nAUCuunhN0DmurQBxbsauqvdvv4mL0F/Aluxq0hFf6gB3iSn9WdaUZdPMXoujy+8cy+m6UvKuyhkgApZhmOLvw==}
+  /@sveltejs/site-kit@6.0.0-next.64(@sveltejs/kit@packages+kit)(svelte@4.2.14):
+    resolution: {integrity: sha512-SosLY07DBA79yJhRR9vQpk9eXlSc3VjzOlIJQFvPzgsbu727rq5u3dudFEsm0NeQFoAF+NNgDYi5D85v5Yc+vQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.20.0
       svelte: ^4.0.0
@@ -2817,7 +2817,7 @@ packages:
       '@sveltejs/kit': link:packages/kit
       esm-env: 1.0.0
       svelte: 4.2.14
-      svelte-local-storage-store: 0.6.4(svelte@4.2.14)
+      svelte-persisted-store: 0.9.4(svelte@4.2.14)
     dev: true
 
   /@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.0)(svelte@4.2.14)(vite@5.2.11):
@@ -3246,8 +3246,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vercel/nft@0.26.4:
-    resolution: {integrity: sha512-j4jCOOXke2t8cHZCIxu1dzKLHLcFmYzC3yqAK6MfZznOL1QIJKd0xcFsXK3zcqzU7ScsE2zWkiMMNHGMHgp+FA==}
+  /@vercel/nft@0.27.1:
+    resolution: {integrity: sha512-K6upzYHCV1cq2gP83r1o8uNV1vwvAlozvMqp7CEjYWxo0CMI8/4jKcDkVjlypVhrfZ54SXwh9QbH0ZIk/vQCsw==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
@@ -3287,7 +3287,7 @@ packages:
   /@vitest/snapshot@1.5.0:
     resolution: {integrity: sha512-qpv3fSEuNrhAO3FpH6YYRdaECnnRjg9VxbhdtPwPRnzSfHVXnNzzrpX4cJxqiwgRMo7uRMWDFBlsBq4Cr+rO3A==}
     dependencies:
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       pathe: 1.1.2
       pretty-format: 29.7.0
     dev: true
@@ -3410,6 +3410,7 @@ packages:
   /are-we-there-yet@2.0.0:
     resolution: {integrity: sha512-Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
     dependencies:
       delegates: 1.0.0
       readable-stream: 3.6.2
@@ -4081,8 +4082,8 @@ packages:
     resolution: {integrity: sha512-QgA6BUh2SoBYE/dSuMmeGhNdoGtGewt3Rn66xKyXoGNyjrKRXf163wuM+xeQ83p87l/3ALoB6Il1dgKyGS5pEw==}
     dev: true
 
-  /dts-buddy@0.4.6(typescript@5.4.5):
-    resolution: {integrity: sha512-0gccY0vIuVCwbx4F9X5soE6ABKyjev2XVgwX2PYBx5hXfnrTeCBZwpf5F7MlVxzLo0pHfO9yNNo21cjZQZD/aw==}
+  /dts-buddy@0.4.7(typescript@5.4.5):
+    resolution: {integrity: sha512-trSY5EWkWWKov9uf9nTPjmEoiIcrYPpNEVCu75drPX9Fus3OwQzN/WNXyO+w7cMteBrUqSoExAAud1KCzYv0SQ==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.4 <5.5'
@@ -4092,7 +4093,7 @@ packages:
       globrex: 0.1.2
       kleur: 4.1.5
       locate-character: 3.0.0
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       sade: 1.8.1
       tiny-glob: 0.2.9
       ts-api-utils: 1.3.0(typescript@5.4.5)
@@ -4702,6 +4703,7 @@ packages:
   /gauge@3.0.2:
     resolution: {integrity: sha512-+5J6MS/5XksCuXq++uFRsnUd7Ovu1XenbeuIuNRJxYWjgQbPuFhT14lAvsWfqfAmnwluf1OwMjz39HjfLPci0Q==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
     dependencies:
       aproba: 2.0.0
       color-support: 1.1.3
@@ -5551,7 +5553,7 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.2
     dev: true
 
   /map-obj@1.0.1:
@@ -5849,6 +5851,7 @@ packages:
 
   /npmlog@5.0.1:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
+    deprecated: This package is no longer supported.
     dependencies:
       are-we-there-yet: 2.0.0
       console-control-strings: 1.1.0
@@ -6549,7 +6552,6 @@ packages:
     resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
     engines: {node: '>=10'}
     hasBin: true
-    dev: true
 
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
@@ -6587,7 +6589,7 @@ packages:
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.3
-      semver: 7.6.0
+      semver: 7.6.2
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.3
       '@img/sharp-darwin-x64': 0.33.3
@@ -6996,15 +6998,6 @@ packages:
       svelte: 4.2.17
     dev: true
 
-  /svelte-local-storage-store@0.6.4(svelte@4.2.14):
-    resolution: {integrity: sha512-45WoY2vSGPQM1sIQJ9jTkPPj20hYeqm+af6mUGRFSPP5WglZf36YYoZqwmZZ8Dt/2SU8lem+BTA8/Z/8TkqNLg==}
-    engines: {node: '>=0.14'}
-    peerDependencies:
-      svelte: ^3.48.0 || >4.0.0
-    dependencies:
-      svelte: 4.2.14
-    dev: true
-
   /svelte-parse-markup@0.1.2(svelte@4.2.14):
     resolution: {integrity: sha512-DycY7DJr7VqofiJ63ut1/NEG92HrWWL56VWITn/cJCu+LlZhMoBkBXT4opUitPEEwbq1nMQbv4vTKUfbOqIW1g==}
     peerDependencies:
@@ -7012,6 +7005,15 @@ packages:
     dependencies:
       svelte: 4.2.14
     dev: false
+
+  /svelte-persisted-store@0.9.4(svelte@4.2.14):
+    resolution: {integrity: sha512-Em3cDSsd3fAkQhvNc4+V7ZT86GnIkFrlcKK/oNSHFhF5fbNoavdxvtTZ0pCF2ueG/Oqg5kSbAFxn0rkeICpHUA==}
+    engines: {node: '>=0.14'}
+    peerDependencies:
+      svelte: ^3.48.0 || ^4.0.0 || ^5.0.0-next.0
+    dependencies:
+      svelte: 4.2.14
+    dev: true
 
   /svelte-preprocess@5.1.3(postcss@8.4.38)(svelte@4.2.14)(typescript@5.4.5):
     resolution: {integrity: sha512-xxAkmxGHT+J/GourS5mVJeOXZzne1FR5ljeOUAMXUkfEhkLEllRreXpbl3dIYJlcJRfL1LO1uIAPpBpBfiqGPw==}
